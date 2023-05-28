@@ -118,3 +118,7 @@ source:~/acme-apache2-main# ./new --domain test.com \
 --conf /to/path/conf/sites-enabled \
 --subd 1.test.com,2.test.com
 ```
+##### httpd restart 
+```sh 
+source:~# systemctl restart apache2
+```
