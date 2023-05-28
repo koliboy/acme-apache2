@@ -68,6 +68,26 @@ This line sets up an alias so that requests to `/.well-known/acme-challenge` are
 
 Please note that to apply these configurations, you'll need to edit the httpd.conf file of your Apache installation and restart the Apache server for the changes to take effect. Also, make sure to use the appropriate path for the httpd.conf file on your system.
 
+To restart the Apache HTTP server, you can use the following commands based on your operating system:
+
+1. **Systemd-based systems (e.g., Ubuntu, CentOS 7 and above):**
+```
+source:~# systemctl restart apache2
+```
+
+2. **SysVinit-based systems (e.g., CentOS 6):**
+```
+source:~# service apache2 restart
+```
+
+3. **macOS:**
+```
+source:~# sudo apachectl restart
+```
+
+Please note that the exact command may vary depending on your system's configuration. Make sure you have the necessary privileges (e.g., using `sudo` or running the command as the root user) to restart the service.
+
+If you encounter any issues or have a different setup, please provide more details about your operating system and Apache version.
 
 
 
