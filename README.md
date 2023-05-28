@@ -55,12 +55,12 @@ Here's a breakdown of the configuration:
 `/to/path/httpd.conf`
 ```html
 
-<Directory /acme-apache2-path>
+<Directory /acme-apache2-main>
 	Options Indexes FollowSymLinks
   Require all granted
 </Directory>
 
-Alias /.well-known/acme-challenge /acme-apache2-path/.well-known/acme-challenge
+Alias /.well-known/acme-challenge acme-apache2-main/.well-known/acme-challenge
 ```
 This block specifies the configuration for the `/to/path/acme-apache2` directory. The Options directive enables directory indexing and following symbolic links. The Require all granted directive allows all users to access the directory.
 
