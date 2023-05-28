@@ -125,3 +125,12 @@ source:~# systemctl restart apache2
 **vist == https://test.com**
 
 ### remove-cert
+```sh 
+./remove --domain test.com --conf /to/path/conf/sites-enabled
+```
+### cert/dir/data 
+```sh 
+source:~/acme-apache2-main# cd data/domains/test.com
+source:~/acme-apache2-main/data/domains/test.com# ls 
+server.csr,server.cert
+```
