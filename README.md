@@ -122,3 +122,6 @@ source:~/acme-apache2-main# ./new --domain test.com \
 ```sh 
 source:~# systemctl restart apache2
 ```
+**vist == https://test.com**
+
+### remove-cert
