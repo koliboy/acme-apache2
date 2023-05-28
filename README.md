@@ -105,6 +105,16 @@ source:~/acme-apache2-main# ./remove
 ```
 
 ### gen-new-cert
+
+##### single-domain
 ```sh
 source:~/acme-apache2-main# ./new --domain test.com --subj IN,Rajthan --conf /to/path/conf/sites-enabled
+```
+
+##### with-sub-domains
+```sh
+source:~/acme-apache2-main# ./new --domain test.com \
+--subj IN,Rajthan \
+--conf /to/path/conf/sites-enabled \
+--subd 1.test.com,2.test.com
 ```
