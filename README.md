@@ -82,7 +82,7 @@ Please note that to apply these configurations, you'll need to edit the httpd.co
 source:~# systemctl restart apache2
 ```
 ### acme-apache2-cmds 
-```
+```sh
 source:~/acme-apache2-main# ./new
 --subj    == countryName,state_name,localityName,orgname,organizationalUnitName
             Pattern:C,ST,L,O,OU
@@ -96,10 +96,15 @@ source:~/acme-apache2-main# ./new
               (e.g.,) --subd 1.test.com,2.test.com
 ```
 
-```
+```sh
 source:~/acme-apache2-main# ./remove
 --domain  == Enter the name in remove SSL/TLS (e.g.,webhost.com) you can also use the name of the subdomain (e.g.,anthor.domain.com)
 
 --conf  == base/dir Where httpd Site Visiting Sites conf Is Available Cake
               (e.g.,) /sdk-srvar/apache2/usr/conf/sites,,WHERE confi domains files
+```
+
+### gen-new-cert
+```sh
+source:~/acme-apache2-main# ./new --domain test.com --subj IN,Rajthan --conf /to/path/conf/sites-enabled
 ```
