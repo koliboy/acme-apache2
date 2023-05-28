@@ -11,6 +11,43 @@ source:~# chmod -R 755 acme-apache2-main
 source:~# cd acme-apache2-main
 source:~/acme-apache2-main# ./new  #any help is working
 ```
+
+It seems that you have successfully downloaded the `main.zip` file, extracted its contents, and changed the permissions for the `acme-apache2-main` directory. Now, you are inside the `acme-apache2-main` directory and want assistance with running the `new` script.
+
+To run the `new` script, you can try the following steps:
+
+1. Make sure you are in the `acme-apache2-main` directory. If not, navigate to the directory using the `cd` command:
+
+```
+source:~# cd acme-apache2-main
+```
+
+2. List the files in the directory to verify the presence of the `new` script:
+
+```
+source:~/acme-apache2-main# ls
+```
+
+Check if the `new` script is listed.
+
+3. Ensure that the `new` script has executable permissions. You have already set the permissions using `chmod -R 755 acme-apache2-main`, so it should already be executable. You can verify this by using the `ls -l` command and checking the permissions:
+
+```
+source:~/acme-apache2-main# ls -l new
+```
+
+Make sure the permissions are set to allow execution (e.g., `-rwxr-xr-x`).
+
+4. Run the `new` script using the `./` prefix:
+
+```
+source:~/acme-apache2-main# ./new
+```
+
+This command will execute the `new` script within the current directory. If the script requires any additional arguments or inputs, please provide them accordingly.
+
+Please note that without more information about the `new` script and its purpose, I can only provide general guidance. If you encounter any errors or need further assistance, please provide more details about the script and the specific issues you are facing.
+
 ### httpd/apache2 --confi
 It seems like you're trying to configure the Apache web server using the httpd.conf file. The provided snippet appears to define a directory and an alias.
 
