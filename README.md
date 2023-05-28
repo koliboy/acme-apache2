@@ -6,7 +6,10 @@
 ### Install
 ```sh
 source:~# wget https://github.com/koliboy/acme-apache2/archive/refs/heads/main.zip
-unzip
+source:~# unzip main.zip
+source:~# chmod -R 755 acme-apache2-main
+source:~# cd acme-apache2-main
+source:~/acme-apache2-main# ./new  #any help is working
 ```
 ### httpd/apache2 --confi
 It seems like you're trying to configure the Apache web server using the httpd.conf file. The provided snippet appears to define a directory and an alias.
