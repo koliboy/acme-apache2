@@ -17,3 +17,7 @@ Moreover, Acme-Apache2 supports various authentication methods provided by Let's
 By leveraging Acme-Apache2, web administrators can enhance the security of their Apache2 (httpd) servers by implementing robust SSL/TLS encryption. This helps protect sensitive data, such as login credentials, personal information, and financial transactions, from unauthorized access and interception.
 
 In summary, Acme-Apache2 is a valuable tool that simplifies the integration of Let's Encrypt SSL/TLS certificates with Apache2 (httpd). It streamlines the process of obtaining and managing certificates, automates certificate renewal, and ensures secure communication between clients and servers. By utilizing Acme-Apache2, web administrators can enhance the security and trustworthiness of their websites and web applications
+
+## Donate
+If this script is useful to you, please donate to the EFF. I don't work there, but they do fantastic work.
+[eff](https://eff.org/donate/)
