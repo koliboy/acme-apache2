@@ -1,7 +1,7 @@
 ##  Table Contents 
 
-* [Install](acme-apache2#install)
-* [httpd/apache2 config](acme-apache2#httpdapache2---confi)
+* [Install](#install)
+* [httpd/apache2 config](#httpdapache2---confi)
 
 ### Install
 ```sh
