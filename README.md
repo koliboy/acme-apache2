@@ -1,5 +1,5 @@
 # acme-apache2
-Acme-Apache2 SSL/TLS Certificate for [Let's Encrypt](https://letsencrypt.org/) and Apache2 (httpd),automatic confi ssl on Apache2 (httpd)
+Acme-Apache2 SSL/TLS Certificate for [Let's Encrypt](https://letsencrypt.org/) and Apache2 (httpd),automatic confi ssl on Apache2 (httpd) *mew cert and remvoe cer ,renew cer*
 
 *includes credits ,inder a LICENSE*
 [acme-tiny](https://github.com/diafygi/acme-tiny),[openssl](https://www.openssl.org/)
