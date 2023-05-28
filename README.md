@@ -68,8 +68,7 @@ This line sets up an alias so that requests to `/.well-known/acme-challenge` are
 
 Please note that to apply these configurations, you'll need to edit the httpd.conf file of your Apache installation and restart the Apache server for the changes to take effect. Also, make sure to use the appropriate path for the httpd.conf file on your system.
 ### sites
-`conf/sites-enabled` 
-**test.com.conf** 
+`conf/sites-enabled/test.com.conf`
 ```html
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
