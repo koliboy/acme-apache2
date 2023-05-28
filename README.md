@@ -75,7 +75,7 @@ Please note that to apply these configurations, you'll need to edit the httpd.co
 	ServerAdmin webmaster@localhost
 	ServerName test.com
 	DocumentRoot  "to/path/test.com"
-    AssignUserID srvar srvar
+    
     </VirtualHost>
 ```
 
