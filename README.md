@@ -4,9 +4,13 @@
 * [httpd/apache2 config](#httpdapache2---confi)
 * [sites](#sites)
 * [acme-apache2-cmds](#acme-apache2-cmds)
-* [gen-new-cert](#gen-new-cert)
+* [gen-new-Certificate](#gen-new-cert)
      *  [gen-new-cert](#single-domain)
      *  [with-sub-domains](#with-sub-domains)
+ * [remve-Certificate](#remove-cert)
+ * [Certificates](#certdirdata)
+
+
 ### Install
 ```sh
 source:~# wget https://github.com/koliboy/acme-apache2/archive/refs/heads/main.zip
