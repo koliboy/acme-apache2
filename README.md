@@ -134,7 +134,7 @@ source:~# systemctl restart apache2
 
 ### remove-cert
 ```sh 
-./remove --domain test.com --conf /to/path/conf/sites-enabled
+source:~/acme-apache2-main# ./remove --domain test.com --conf /to/path/conf/sites-enabled
 ```
 ### cert/dir/data 
 ```sh 
